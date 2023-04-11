@@ -34,7 +34,7 @@ const player = new Fighter({
         y: 0
     },
     imageSrc: './images/favicon/Kangaroo_Idle.png',
-    framesMax: 48,
+    framesMax: 32,
     scale: 1,
     offset: {
         x: 0,
@@ -84,7 +84,7 @@ const enemy = new Fighter({
         y: 0
     },
     imageSrc: './images/favicon/Dinosaur_Idle.png',
-    framesMax: 44, 
+    framesMax: 24, 
     scale: 1,
     offset: {
         x: 0,
