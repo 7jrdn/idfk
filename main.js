@@ -43,7 +43,7 @@ const player = new Fighter({
     sprites: {
         idle: {
             imageSrc: './images/favicon/Kangaroo_Idle.png',
-            framesMax: 48
+            framesMax: 32
         },
         attack: {
             imageSrc: './images/favicon/Kangaroo_Attack.png',
@@ -93,7 +93,7 @@ const enemy = new Fighter({
     sprites: {
         idle: {
             imageSrc: './images/favicon/Dinosaur_Idle.png',
-            framesMax: 44
+            framesMax: 24
         },
         attack: {
             imageSrc: './images/favicon/Dinosaur_Attack.png',
